@@ -1,0 +1,71 @@
+/* header start here */
+/* banner */
+.banner_UNO
+{
+    background-color: #ed1b24;
+    position: relative;
+    height: 80px;
+}
+
+.textbox
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+/* slider */
+.slider_UNO
+{
+    background-image: url("../../images/header/header-UNO.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+}
+
+@media only screen and (max-width: 1199px) 
+{
+    .slider_UNO
+    {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .slider_UNO
+    {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .slider_UNO
+    {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 599px)
+{
+    .slider_UNO
+    {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .slider_UNO
+    {
+        height: 100px;
+    }
+}
+/* header end here */

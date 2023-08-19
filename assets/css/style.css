@@ -1,0 +1,193 @@
+*
+{
+    font-family: sans-serif;
+}
+
+/* header start here */
+/* top panel */
+.top_panel_text>p
+{
+    color: #9ec12f;
+    font-size: 13px;
+    font-stretch: ultra-expanded;
+}
+
+.top_panel_link>span
+{
+    color: #9ec12f;
+}
+
+.top_panel_link>span>a
+{
+    color: #9ec12f;
+    font-size: 13px;
+    font-stretch: ultra-expanded;
+    margin: 0 5px;
+}
+
+/* navbar */
+/* navbar large screen */
+@media only screen and (min-width: 992px) 
+{
+    .navbar_small_screens
+    {
+        display: none;
+    }
+}
+/* navbar small screen */
+@media only screen and (max-width: 991px) 
+{
+    .navbar_large_screens
+    {
+        display: none;
+    }
+
+    .fa-search
+    {
+        color: rgb(155, 154, 154);
+    }
+}
+/* header end here */
+
+
+
+
+/*product cards start here*/
+.container
+{
+    /* border: 1px solid red; */
+}
+
+.row
+{
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.product_card
+{
+    align-items: center;
+    text-align: center;
+    margin: 5px 10px;
+    height: fit-content;
+    width: 300px;
+    box-shadow: 0px 4px 8px 0px rgba(15, 15, 15, 0.2); 
+}
+
+.product_card:hover
+{
+    box-shadow: 0px 4px 8px 0px rgba(15, 15, 15, 0.2); 
+}
+
+.product_card:hover .product_img
+{
+    transform: scale(1.05);
+
+    transition: 0.5s;
+}
+
+.product_img
+{
+    background-color: rgb(246, 246, 246);
+    height: 250px;
+    margin: 10px 0;
+}
+
+.product_name
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.product_price
+{
+    margin: 0;
+}
+
+.add_to_cart_btn
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #9ec12f;
+    color: #9ec12f;
+    border-radius: 0;
+}
+
+.add_to_cart_btn:hover
+{
+    background-color: #9ec12f;
+    color: #6648a7;
+    border: 1px solid #9ec12f;
+    cursor: pointer;
+}
+/*product cards end here*/
+
+
+
+/*footer start here*/
+.footer_
+{
+    background-color: #6648a7;
+}
+
+.footer_logo
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px;
+}
+
+.footer_top
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer_top>ul>li
+{
+    list-style: none;
+    display: inline;
+    padding: 1px 0px;
+    align-items: center;
+    border-right: 1px solid white;
+}
+
+.footer_top>ul>li:last-of-type
+{
+    border-right: none;
+}
+
+@media only screen and (max-width: 991px) 
+{
+    .footer_top>ul>li
+    {
+        border: none;
+    }
+}
+
+.footer_top>ul>li>a
+{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.footer_bottom>h6
+{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+/*footer end here*/

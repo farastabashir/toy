@@ -1,0 +1,71 @@
+/* header start here */
+/* banner */
+.banner_hot-wheels
+{
+    background-color: #019bd7;
+    position: relative;
+    height: 80px;
+}
+
+.textbox
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+/* slider */
+.slider_hot-wheels
+{
+    background-image: url("../../images/header/header-hot-wheels.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+}
+
+@media only screen and (max-width: 1199px) 
+{
+    .slider_hot-wheels
+    {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .slider_hot-wheels
+    {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .slider_hot-wheels
+    {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 599px)
+{
+    .slider_hot-wheels
+    {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .slider_hot-wheels
+    {
+        height: 100px;
+    }
+}
+/* header end here */
